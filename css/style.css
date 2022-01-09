@@ -1,0 +1,30 @@
+body {
+    background: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    height: 180px;
+    width: auto;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="submit"],
+[type="reset"] {
+    cursor: pointer;
+}
+
+input[type="text"]:focus {
+    background: transparent;
+    caret-color: red;
+
+}
